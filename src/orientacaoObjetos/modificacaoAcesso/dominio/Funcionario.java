@@ -1,9 +1,10 @@
-package orientacaoObjetos.metodos.parametros.dominio;
+package orientacaoObjetos.modificacaoAcesso.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double mediaSalarios = 0;
 
     public void imprimirDados() {
         System.out.println(this.nome);
@@ -20,11 +21,34 @@ public class Funcionario {
         if (salarios == null) {
             return;
         }
-        double mediaSalarios = 0;
         for (double salario: salarios) {
             mediaSalarios += salario;
         }
         mediaSalarios /= salarios.length;
         System.out.printf("\nMédia salarial é %.2f", mediaSalarios);
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+    public int getIdade() {
+        return idade;
+    }
+    public double[] getSalarios() {
+        return salarios;
+    }
+    public double getMediaSalarios() {
+        return mediaSalarios;
     }
 }

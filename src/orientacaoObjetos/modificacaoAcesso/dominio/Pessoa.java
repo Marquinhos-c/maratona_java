@@ -11,7 +11,7 @@ public class Pessoa {
         System.out.println(this.idade);
     }
 
-    // ✏️ Setter público para o atributo nome.
+    // Setter público para o atributo nome.
     // Permite modificar o nome de forma controlada.
     public void setNome(String nome) {
         this.nome = nome;
