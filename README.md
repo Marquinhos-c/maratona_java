@@ -33,4 +33,4 @@ A estrutura está organizada por tópicos ou áreas de estudo. Exemplos:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/java-estudos.git
+   git clone https://github.com/Marquinhos-c/maratona-java.git
