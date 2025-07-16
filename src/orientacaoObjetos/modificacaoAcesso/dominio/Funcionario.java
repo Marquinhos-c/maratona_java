@@ -25,7 +25,6 @@ public class Funcionario {
             mediaSalarios += salario;
         }
         mediaSalarios /= salarios.length;
-        System.out.printf("\nMédia salarial é %.2f", mediaSalarios);
     }
 
     public void setNome(String nome) {
