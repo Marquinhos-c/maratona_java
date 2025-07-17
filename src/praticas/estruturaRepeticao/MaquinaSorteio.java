@@ -38,5 +38,6 @@ public class MaquinaSorteio {
              }
         }
         System.out.println("Jogo finalizado! ");
+        input.close();
     }
 }

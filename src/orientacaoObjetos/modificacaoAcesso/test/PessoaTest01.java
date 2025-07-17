@@ -16,7 +16,7 @@ public class PessoaTest01 {
  //       pessoa.imprime();
 
         // Usa métodos públicos (getters) para acessar os dados da pessoa
-        System.out.println(pessoa.getNome()); // imprime "Goku"
-        System.out.println(pessoa.getIdade()); // imprime "18"
+        System.out.println("Nome: " + pessoa.getNome()); // imprime "Goku"
+        System.out.println("Idade:" + pessoa.getIdade()); // imprime "18"
     }
 }

@@ -25,6 +25,6 @@ public class Pratica {
             }
         }
         System.out.println("Total de número pares " + contadorPar);
-        System.out.println("Total de números impares" + contadorImpar);
+        System.out.println("Total de números impares " + contadorImpar);
     }
 }
