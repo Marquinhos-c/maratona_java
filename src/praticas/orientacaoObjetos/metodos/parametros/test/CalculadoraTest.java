@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.metodos.test;
+package praticas.orientacaoObjetos.metodos.parametros.test;
 
-import praticas.orientacaoObjetos.metodos.dominio.Calculadora;
+import praticas.orientacaoObjetos.metodos.parametros.dominio.Calculadora;
 import java.util.Scanner;
 
 public class CalculadoraTest {

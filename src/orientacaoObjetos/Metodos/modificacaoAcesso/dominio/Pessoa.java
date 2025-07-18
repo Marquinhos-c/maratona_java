@@ -1,4 +1,4 @@
-package orientacaoObjetos.modificacaoAcesso.dominio;
+package orientacaoObjetos.metodos.modificacaoAcesso.dominio;
 
 public class Pessoa {
 

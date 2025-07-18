@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.metodos.test;
+package praticas.orientacaoObjetos.metodos.parametros.test;
 
-import praticas.orientacaoObjetos.metodos.dominio.Operacoes;
+import praticas.orientacaoObjetos.metodos.parametros.dominio.Operacoes;
 
 public class OperacoesTest1 {
     public static void main(String[] args) {

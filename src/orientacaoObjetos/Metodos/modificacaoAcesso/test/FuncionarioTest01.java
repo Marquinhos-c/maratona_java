@@ -1,6 +1,6 @@
-package orientacaoObjetos.modificacaoAcesso.test;
+package orientacaoObjetos.metodos.modificacaoAcesso.test;
 
-import orientacaoObjetos.modificacaoAcesso.dominio.Funcionario;
+import orientacaoObjetos.metodos.modificacaoAcesso.dominio.Funcionario;
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {

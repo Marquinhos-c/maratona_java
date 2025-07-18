@@ -1,6 +1,6 @@
 package orientacaoObjetos.Metodos.parametros.test;
 
-import orientacaoObjetos.Metodos.parametros.dominio.Calculadora;
+import orientacaoObjetos.metodos.parametros.dominio.Calculadora;
 /*
 Em Java, quando você passa um tipo primitivo (como int)
 para um método, o que é passado é uma cópia do valor,

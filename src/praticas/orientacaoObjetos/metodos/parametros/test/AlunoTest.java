@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.metodos.test;
+package praticas.orientacaoObjetos.metodos.parametros.test;
 
-import praticas.orientacaoObjetos.metodos.dominio.Aluno;
+import praticas.orientacaoObjetos.metodos.parametros.dominio.Aluno;
 
 public class AlunoTest {
     public static void main(String[] args) {

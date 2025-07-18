@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.metodos.test;
+package praticas.orientacaoObjetos.metodos.parametros.test;
 
-import praticas.orientacaoObjetos.metodos.dominio.Fatorial;
+import praticas.orientacaoObjetos.metodos.parametros.dominio.Fatorial;
 
 public class FatorialTest {
     public static void main(String[] args) {

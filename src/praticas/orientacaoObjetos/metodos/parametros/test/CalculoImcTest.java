@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.metodos.test;
+package praticas.orientacaoObjetos.metodos.parametros.test;
 
-import praticas.orientacaoObjetos.metodos.dominio.CalculoImc;
+import praticas.orientacaoObjetos.metodos.parametros.dominio.CalculoImc;
 
 import java.util.Locale;
 import java.util.Scanner;

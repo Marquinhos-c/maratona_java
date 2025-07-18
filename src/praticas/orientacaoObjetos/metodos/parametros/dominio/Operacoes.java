@@ -1,4 +1,4 @@
-package praticas.orientacaoObjetos.metodos.dominio;
+package praticas.orientacaoObjetos.metodos.parametros.dominio;
 
 public class Operacoes {
     public static String contador (int i, int f) {

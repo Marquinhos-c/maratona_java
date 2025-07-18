@@ -1,4 +1,4 @@
-package orientacaoObjetos.Metodos.retorno.dominio;
+package orientacaoObjetos.metodos.retorno.dominio;
 
 public class Calculadora {
 

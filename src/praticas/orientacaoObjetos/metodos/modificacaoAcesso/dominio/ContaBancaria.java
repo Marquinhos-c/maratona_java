@@ -1,4 +1,4 @@
-package praticas.orientacaoObjetos.modificacaoAcesso.dominio;
+package praticas.orientacaoObjetos.metodos.modificacaoAcesso.dominio;
 /**
  * Classe que representa uma conta bancária simples.
  * Permite realizar operações de depósito e saque,

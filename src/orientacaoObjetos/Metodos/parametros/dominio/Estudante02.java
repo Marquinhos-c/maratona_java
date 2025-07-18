@@ -1,4 +1,4 @@
-package orientacaoObjetos.Metodos.parametros.dominio;
+package orientacaoObjetos.metodos.parametros.dominio;
 
 public class Estudante02 {
     public String nome;

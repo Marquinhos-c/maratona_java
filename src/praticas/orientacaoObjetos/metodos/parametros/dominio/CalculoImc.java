@@ -1,4 +1,4 @@
-package praticas.orientacaoObjetos.metodos.dominio;
+package praticas.orientacaoObjetos.metodos.parametros.dominio;
 /*
 - Um segundo método que receba o valor do IMC e retorne uma string com a classificação correspondente:
 - Abaixo de 18.5 → "Abaixo do peso"

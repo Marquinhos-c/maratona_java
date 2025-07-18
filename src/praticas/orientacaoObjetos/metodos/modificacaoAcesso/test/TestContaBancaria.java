@@ -1,6 +1,6 @@
-package praticas.orientacaoObjetos.modificacaoAcesso.test;
+package praticas.orientacaoObjetos.metodos.modificacaoAcesso.test;
 
-import praticas.orientacaoObjetos.modificacaoAcesso.dominio.ContaBancaria;
+import praticas.orientacaoObjetos.metodos.modificacaoAcesso.dominio.ContaBancaria;
 
 import java.util.Scanner;
 
