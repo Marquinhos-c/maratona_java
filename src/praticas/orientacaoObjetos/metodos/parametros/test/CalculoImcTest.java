@@ -22,9 +22,12 @@ public class CalculoImcTest {
         System.out.println("Digite sua altura: ");
         double altura = input.nextDouble();
 
+
         double imc = calculador.calculoImc(peso, altura);
         String classificacao = calculador.classificadorImc(imc);
 
-        System.out.printf("IMC: %.2f - Classificação: %s%n", imc, classificacao); // printf - substitui os marcadores %.2f e %s pelo imc e classificação
+        // printf - substitui os marcadores %.2f e %s pelo imc e classificação
+        System.out.printf("IMC: %.2f - Classificação: %s%n", imc, classificacao);
+
     }
 }
