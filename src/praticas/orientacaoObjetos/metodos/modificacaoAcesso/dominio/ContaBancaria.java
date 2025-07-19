@@ -37,7 +37,6 @@ public class ContaBancaria {
     public String getTitular() {
         return titular;
     }
-
     public void setTitular(String titular) {
         this.titular = titular;
     }
@@ -45,7 +44,6 @@ public class ContaBancaria {
     public int getNumeroConta() {
         return numeroConta;
     }
-
     public void setNumeroConta(int numeroConta) {
         this.numeroConta = numeroConta;
     }

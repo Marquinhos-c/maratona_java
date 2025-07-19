@@ -19,6 +19,7 @@ public class TestContaBancaria {
         System.out.println("Nome titular da conta: ");
         String nomeTitular = input.nextLine();
         conta.setTitular(nomeTitular);
+
         System.out.println("Número da conta: ");
         int numeroConta = input.nextInt();
         conta.setNumeroConta(numeroConta);
