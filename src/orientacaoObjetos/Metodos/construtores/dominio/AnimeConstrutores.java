@@ -9,6 +9,7 @@ public class AnimeConstrutores {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
     // Construtor com parâmetros - permite criar um objeto Anime já com todos os dados definidos.
     public AnimeConstrutores(String nome, String tipo, int episodios, String genero) {
@@ -17,9 +18,9 @@ public class AnimeConstrutores {
         this.episodios = episodios;
         this.genero = genero;
     }
-    //Construtor padrão (sem parâmetros).
-    public AnimeConstrutores() {
-
+    public AnimeConstrutores(String nome, String tipo, int episodios, String genero, String estudio) {
+        this(nome, tipo, episodios, genero); // reaproveita o outro construtor
+        this.estudio = estudio;              // Atribui o valor do parâmetro adicional
     }
 
     // Método que imprime os dados do anime no console.
@@ -29,6 +30,7 @@ public class AnimeConstrutores {
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     // Getters e setters

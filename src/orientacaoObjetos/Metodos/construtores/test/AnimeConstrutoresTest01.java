@@ -10,23 +10,10 @@ public class AnimeConstrutoresTest01 {
 
         // Criação de um objeto usando o construtor com todos os parâmetros
         // Isso preenche os dados do anime logo na criação do objeto
-        AnimeConstrutores anime = new AnimeConstrutores("Naruto", "tv", 12, "Ação");
+        AnimeConstrutores anime = new AnimeConstrutores("Naruto", "tv", 12, "Ação", "Production");
 
         // Chamada do método imprime para mostrar os dados no console
         anime.imprime();
 
-        System.out.println("------");
-
-        // Criação de outro objeto usando o construtor padrão (sem parâmetros)
-        AnimeConstrutores anime2 = new AnimeConstrutores();
-
-        // Agora os dados são preenchidos usando os métodos set (setters)
-        anime2.setNome("One Piece");
-        anime2.setTipo("Aventura");
-        anime2.setEpisodios(1000);
-        anime2.setGenero("Shounen");
-
-        // Imprime os dados do segundo anime
-        anime2.imprime();
     }
 }
