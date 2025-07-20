@@ -24,7 +24,7 @@ public class Anime {
         System.out.println(this.episodios);
         System.out.println(this.genero);
     }
-
+/*
     // Getters e setters
     public void setGenero(String genero) {
         this.genero = genero;
@@ -50,4 +50,6 @@ public class Anime {
     public int getEpisodios() {
         return this.episodios;
     }
+
+ */
 }
