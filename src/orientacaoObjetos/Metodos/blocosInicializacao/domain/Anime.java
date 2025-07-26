@@ -29,6 +29,7 @@ public class Anime {
     }
     // construtor
     public Anime() {
+        System.out.println("Dentro do construtor! ");
         for (int episodio: episodios) {
             System.out.print(episodio + " ");
         }
