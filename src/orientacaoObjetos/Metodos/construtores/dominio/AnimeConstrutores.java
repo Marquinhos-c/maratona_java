@@ -67,4 +67,11 @@ public class AnimeConstrutores {
     public int getEpisodios() {
         return this.episodios;
     }
+
+    public String getEstudio() {
+        return estudio;
+    }
+    public void setEstudio(String estudio) {
+        this.estudio = estudio;
+    }
 }

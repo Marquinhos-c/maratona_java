@@ -9,14 +9,11 @@ public class Carro {
     private double velocidadeMaxima;
     public static double velocidadeLimite = 250;
 
-    // Construtor da classe Carro.
     public Carro(String nome, double velocidadeMaxima) {
         this.nome = nome;
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
-    // Método de instância que imprime as informações do carro.
-    // Exibe o nome, a velocidade máxima individual e a velocidade limite global.
     public void imprime() {
         System.out.println("-------------------");
         System.out.println("Nome: " + this.nome);
