@@ -10,7 +10,7 @@ package praticas.orientacaoObjetos.metodos.parametros.dominio;
 public class CalculoImc {
     public double calculoImc(double peso, double altura) {
         if (peso < 0 || altura < 0) {
-            System.out.println("Seu peso e altaura deve ser maior que zero! ");
+            System.out.println("Seu peso e altura deve ser maior que zero! ");
         }
         return peso / (altura * altura);
     }
