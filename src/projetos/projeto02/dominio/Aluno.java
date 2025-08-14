@@ -5,45 +5,48 @@ public class Aluno {
     private int idade;
     private double peso;
     private double altura;
+    private Treino treino;
 
-    static {
-        System.out.println("Aluno cadastrado no sistema! ");
-    }
-
+    // Construtor 1
     public Aluno(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
     }
+    // Construtor 2 (sobrecarga)
     public Aluno(String nome, int idade, double peso, double altura) {
         this(nome, idade);
         this.peso = peso;
         this.altura = altura;
     }
 
-    public double calcularImc() {
-        return peso / (altura * altura);
-    }
-    public double calcularImc(double peso, double altura) {
-        return peso / (altura * altura);
-    }
-
-    public void dadosAluno() {
-        System.out.println("=== Dados do Aluno ===");
+    /**
+     * Exibe no console a ficha completa do aluno, incluindo dados pessoais,
+     * físicos e o treino associado (se houver).
+     */
+    public void mostrarFichaCompleta() {
+        System.out.println("=== Ficha do Aluno ===");
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
-        System.out.println("Peso: " + this.peso + " kg");
-        System.out.println("Altura: " + this.altura + " m");
-    }
-    public String classificacaoImc(double imc) {
-        if (imc < 18.5) {
-            return String.format("IMC: %.2f - Classificação: Magreza", imc);
-        } else if (imc >= 18.5 && imc <= 24.9) {
-            return String.format("IMC: %.2f - Classificação: Normal", imc);
+        System.out.println("Peso: " + (peso > 0 ? peso : "[ não informado! ]"));
+        System.out.println("Altura: " + (altura > 0 ? altura : "[ não informado! ]"));
+
+        if (treino != null) {
+            System.out.println("\nTreino: ");
+            System.out.println("Nome : " + treino.getNome());
+            System.out.println("Duração: " + treino.getDuracao());
+            System.out.println("Dificuldade: " + treino.getDificuldade());
+
+            if (treino.getProfessor() != null) {
+                System.out.println("Professor: " + treino.getProfessor().getNome());
+            } else {
+                System.out.println("Professor: [não definido]");
+            }
         } else {
-            return String.format("IMC: %.2f - Classificação: Sobrepeso", imc);
+            System.out.println("\nTreino: [nenhum treino cadastrado]");
         }
     }
 
+    // Getters e Setters
     public String getNome() {
         return nome;
     }
@@ -70,5 +73,12 @@ public class Aluno {
     }
     public void setAltura(double altura) {
         this.altura = altura;
+    }
+
+    public Treino getTreino() {
+        return treino;
+    }
+    public void setTreino(Treino treino) {
+        this.treino = treino;
     }
 }

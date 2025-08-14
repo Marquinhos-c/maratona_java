@@ -1,9 +1,9 @@
 package projetos.projeto02.dominio;
 
 public class Academia {
-    private String nome;
-    private String endereco;
-    private String horarioFuncionamento;
+    private static String nome;
+    private static String endereco;
+    private static String horarioFuncionamento;
 
     public Academia(String nome, String endereco, String horarioFuncionamento) {
         this.nome = nome;
@@ -11,6 +11,17 @@ public class Academia {
         this.horarioFuncionamento = horarioFuncionamento;
     }
 
+    // Método estático para informações institucionais
+    public static void dadosAcademia() {
+        System.out.println("===== Informações da Academia =====");
+        System.out.println("Nome: " + nome );
+        System.out.println("Missão: Promover saúde e bem-estar através da atividade física.");
+        System.out.println("Serviços: Musculação, CrossFit, Yoga, Personal Trainer");
+        System.out.println("Endereço: " + endereco);
+        System.out.println("Contato: (11) 99999-9999");
+        System.out.println("Horarios: " + horarioFuncionamento);
+        System.out.println("===================================");
+    }
 
     public String getNome() {
         return nome;

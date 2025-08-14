@@ -4,6 +4,7 @@ public class Treino {
     private String nome;
     private String dificuldade;
     private double duracao;
+    private Professor professor;
 
     public Treino(String nome, String dificuldade, double duracao) {
         this.nome = nome;
@@ -15,7 +16,12 @@ public class Treino {
         System.out.println("=== Dados do Treino ===");
         System.out.println("Nome: " + this.nome);
         System.out.println("Dificuldade: " + this.dificuldade);
-        System.out.println("Duração: " + this.duracao);
+        System.out.println("Duração: " + this.duracao + " minutos");
+        if (professor != null) {
+            System.out.println("Professor: " + professor.getNome());
+        } else {
+            System.out.println("Professor: [não definido");
+        }
     }
 
     public String getNome() {
@@ -37,5 +43,12 @@ public class Treino {
     }
     public void setDuracao(double duracao) {
         this.duracao = duracao;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
     }
 }
