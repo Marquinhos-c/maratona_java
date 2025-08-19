@@ -1,7 +1,7 @@
 package projetos.projeto02.dominio;
 
 public class Aluno {
-    private String nome;
+    private  String nome;
     private int idade;
     private double peso;
     private double altura;

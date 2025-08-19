@@ -6,9 +6,9 @@ public class Academia {
     private static String horarioFuncionamento;
 
     public Academia(String nome, String endereco, String horarioFuncionamento) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.horarioFuncionamento = horarioFuncionamento;
+        Academia.nome = nome;
+        Academia.endereco = endereco;
+        Academia.horarioFuncionamento = horarioFuncionamento;
     }
 
     // Método estático para informações institucionais
