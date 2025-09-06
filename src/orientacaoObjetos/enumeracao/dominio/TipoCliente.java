@@ -7,6 +7,7 @@ package orientacaoObjetos.enumeracao.dominio;
  */
 
 public enum TipoCliente {
+    // Cada constante é automaticamente um objeto do enum.
     PESSOA_FISICA(1, "Pessoa Fisica"),
     PESSOA_JURIDICA(2, "Pessoa Juridica");
 
