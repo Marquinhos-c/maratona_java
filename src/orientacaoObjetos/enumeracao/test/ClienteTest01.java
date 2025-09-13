@@ -31,7 +31,7 @@ public class ClienteTest01 {
         System.out.println(tipoCliente.getNomeRelatorio());
 
         // Converte uma string amigável para enum usando método customizado
-        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica");
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Juridica");
         System.out.println(tipoCliente2);
     }
 }
