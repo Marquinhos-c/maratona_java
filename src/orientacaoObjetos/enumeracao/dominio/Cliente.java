@@ -13,8 +13,8 @@ package orientacaoObjetos.enumeracao.dominio;
 
 public class Cliente {
     private String nome;
-    private TipoCliente tipoCliente;
-    private TipoPagamento tipoPagamento;
+    private final TipoCliente tipoCliente;
+    private final TipoPagamento tipoPagamento;
 
     //Construtor para inicializar o cliente.
     public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
