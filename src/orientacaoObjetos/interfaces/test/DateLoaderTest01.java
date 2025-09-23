@@ -1,6 +1,7 @@
 package orientacaoObjetos.interfaces.test;
 
 import orientacaoObjetos.interfaces.dominio.DataBaseLoader;
+import orientacaoObjetos.interfaces.dominio.DataLoader;
 import orientacaoObjetos.interfaces.dominio.FileLoad;
 
 public class DateLoaderTest01 {
@@ -16,5 +17,8 @@ public class DateLoaderTest01 {
 
         dataBaseLoader.checkPermission();
         fileLoad.checkPermission();
+
+        DataLoader.retrieveMaxDataSize();
+        DataBaseLoader.retrieveMaxDataSize();
     }
 }
