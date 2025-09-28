@@ -1,0 +1,12 @@
+package praticas.orientacaoobjetos.metodos.parametros.test;
+
+import praticas.orientacaoobjetos.metodos.parametros.dominio.Fatorial;
+
+public class FatorialTest {
+    public static void main(String[] args) {
+        Fatorial f = new Fatorial();
+        f.setValor(5);
+        System.out.println(f.getFormula());
+        System.out.println(f.getFatorial());
+    }
+}
