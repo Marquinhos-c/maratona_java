@@ -8,7 +8,7 @@ import orientacaoobjetos.polimorfismo.servico.CalculadoraImposto;
 public class ProdutoTest01 {
     public static void main(String[] args) {
         Computador computador = new Computador("Aspire5", 4400);
-        Tomate tomate = new Tomate("Tomate Cereja", 10);
+        Tomate tomate = new Tomate("Tomate Cereja", 10, "28/10/2025");
         Televisao televisao = new Televisao("LG 50\"", 3500);
 
         CalculadoraImposto.calcularImposto(computador);

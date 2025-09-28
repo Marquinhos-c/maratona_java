@@ -5,8 +5,9 @@ public class Tomate extends Produto{
 
     public static final double IMPOSTO_POR_CENTO = 0.06;
 
-    public Tomate(String nome, double valor) {
+    public Tomate(String nome, double valor, String dataValidade) {
         super(nome, valor);
+        this.dataValidade = dataValidade;
     }
 
     @Override

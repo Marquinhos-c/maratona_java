@@ -1,6 +1,6 @@
-package orientacaoobjetos.metodos.modificacaoAcesso.test;
+package orientacaoobjetos.metodos.modificacaoacesso.test;
 
-import orientacaoobjetos.metodos.modificacaoAcesso.dominio.Pessoa;
+import orientacaoobjetos.metodos.modificacaoacesso.dominio.Pessoa;
 
 public class PessoaTest01 {
     public static void main(String[] args) {

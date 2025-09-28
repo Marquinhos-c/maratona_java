@@ -1,6 +1,6 @@
-package orientacaoobjetos.metodos.modificadoresEstaticos.test;
+package orientacaoobjetos.metodos.modificadoresestaticos.test;
 
-import orientacaoobjetos.metodos.modificadoresEstaticos.domain.Carro;
+import orientacaoobjetos.metodos.modificadoresestaticos.domain.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {

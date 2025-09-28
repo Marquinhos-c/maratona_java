@@ -1,4 +1,4 @@
-package orientacaoobjetos.metodos.modificacaoAcesso.dominio;
+package orientacaoobjetos.metodos.modificacaoacesso.dominio;
 
 public class Funcionario {
     private String nome;

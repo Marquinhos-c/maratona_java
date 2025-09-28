@@ -1,4 +1,4 @@
-package orientacaoobjetos.metodos.modificadoresEstaticos.domain;
+package orientacaoobjetos.metodos.modificadoresestaticos.domain;
 
 public class Carro02 {
     private String nome;

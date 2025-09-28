@@ -1,4 +1,4 @@
-package orientacaoobjetos.metodos.modificadoresEstaticos.domain;
+package orientacaoobjetos.metodos.modificadoresestaticos.domain;
 /*
     nome → é um atributo de instância (cada carro tem o seu).
     velocidadeMaxima → também é um atributo de instância.

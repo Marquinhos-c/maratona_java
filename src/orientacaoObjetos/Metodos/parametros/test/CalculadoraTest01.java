@@ -1,4 +1,4 @@
-package orientacaoobjetos.Metodos.parametros.test;
+package orientacaoobjetos.metodos.parametros.test;
 
 import orientacaoobjetos.metodos.parametros.dominio.Calculadora;
 /*

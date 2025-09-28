@@ -1,5 +1,10 @@
 package orientacaoobjetos.polimorfismo.dominio;
-
+/**
+ * Representa um produto do tipo Televisão.
+ * <p>
+ * Esta classe herda de {@link Produto} e fornece uma implementação específica
+ * para o cálculo de imposto definido pela interface {@link Taxavel}.
+ */
 public class Televisao extends Produto{
 
     public static final double IMPOSTO_POR_CENTO = 0.15;
@@ -10,7 +15,7 @@ public class Televisao extends Produto{
 
     @Override
     public double calcularImposto() {
-        System.out.println("Calculando imposto do Computador");
+        System.out.println("Calculando imposto da televisão");
         return this.valor * IMPOSTO_POR_CENTO;
     }
 }
