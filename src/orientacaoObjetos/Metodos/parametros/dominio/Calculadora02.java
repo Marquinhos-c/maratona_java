@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.parametros.dominio;
+package orientacaoobjetos.metodos.parametros.dominio;
 
 public class Calculadora02 {
    // Array - recebendo multiplos valores

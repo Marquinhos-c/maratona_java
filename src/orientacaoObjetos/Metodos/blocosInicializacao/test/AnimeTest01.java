@@ -1,6 +1,6 @@
-package orientacaoObjetos.metodos.blocosInicializacao.test;
+package orientacaoobjetos.metodos.blocosInicializacao.test;
 
-import orientacaoObjetos.metodos.blocosInicializacao.domain.Anime;
+import orientacaoobjetos.metodos.blocosInicializacao.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

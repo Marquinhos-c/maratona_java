@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.blocosInicializacao.domain;
+package orientacaoobjetos.metodos.blocosInicializacao.domain;
 
 public class Anime {
     private String nome;

@@ -1,6 +1,6 @@
-package orientacaoObjetos.metodos.modificadoresEstaticos.test;
+package orientacaoobjetos.metodos.modificadoresEstaticos.test;
 
-import orientacaoObjetos.metodos.modificadoresEstaticos.domain.Anime;
+import orientacaoobjetos.metodos.modificadoresEstaticos.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

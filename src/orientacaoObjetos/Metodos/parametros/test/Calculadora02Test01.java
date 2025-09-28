@@ -1,6 +1,6 @@
-package orientacaoObjetos.metodos.parametros.test;
+package orientacaoobjetos.metodos.parametros.test;
 
-import orientacaoObjetos.metodos.parametros.dominio.Calculadora02;
+import orientacaoobjetos.metodos.parametros.dominio.Calculadora02;
 
 public class Calculadora02Test01 {
     public static void main(String... args) {

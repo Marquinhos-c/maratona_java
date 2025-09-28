@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.parametros.dominio;
+package orientacaoobjetos.metodos.parametros.dominio;
 /*
 Em Java, quando você passa um tipo primitivo (como int)
 para um método, o que é passado é uma cópia do valor,

@@ -1,6 +1,6 @@
-package orientacaoObjetos.metodos.construtores.test;
+package orientacaoobjetos.metodos.construtores.test;
 
-import orientacaoObjetos.metodos.construtores.dominio.AnimeConstrutores;
+import orientacaoobjetos.metodos.construtores.dominio.AnimeConstrutores;
 /**
  * Classe de teste que demonstra o uso dos construtores da classe AnimeConstrutores.
  * Aqui são criados dois objetos de Anime: um com o construtor completo e outro com o construtor vazio + setters.

@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.modificadoresEstaticos.domain;
+package orientacaoobjetos.metodos.modificadoresEstaticos.domain;
 
 public class Anime {
     private String nome;

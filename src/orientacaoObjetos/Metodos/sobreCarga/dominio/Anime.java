@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.sobreCarga.dominio;
+package orientacaoobjetos.metodos.sobreCarga.dominio;
 
 public class Anime {
     private String nome;

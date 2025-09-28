@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.construtores.dominio;
+package orientacaoobjetos.metodos.construtores.dominio;
 /*
     Classe que representa um Anime com nome, tipo, número de episódios e gênero.
     Demonstra o uso de construtores, encapsulamento (get/set) e método de impressão.

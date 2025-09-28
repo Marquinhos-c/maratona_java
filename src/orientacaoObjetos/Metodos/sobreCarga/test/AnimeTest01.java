@@ -1,6 +1,6 @@
-package orientacaoObjetos.metodos.sobreCarga.test;
+package orientacaoobjetos.metodos.sobreCarga.test;
 
-import orientacaoObjetos.metodos.sobreCarga.dominio.Anime;
+import orientacaoobjetos.metodos.sobreCarga.dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

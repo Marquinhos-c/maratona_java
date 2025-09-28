@@ -1,4 +1,4 @@
-package orientacaoObjetos.metodos.retorno.dominio;
+package orientacaoobjetos.metodos.retorno.dominio;
 
 public class Calculadora2 {
     // retorno de um valor double
