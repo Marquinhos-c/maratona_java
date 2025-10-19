@@ -8,7 +8,7 @@ public class ProdutoTest02 {
     public static void main(String[] args) {
         // A variável de referência é do tipo genérico 'Produto'
         // O objeto em memória é do tipo específico 'Computador'
-        Produto produto1 = new Computador("Ryzen 7", 3600);
+        Produto produto1 = new Computador("Ideapad 3", 3600);
         System.out.println(produto1.getNome());
         System.out.println(produto1.getValor());
         // Polimorfismo: Executa o @Override da classe Computador
