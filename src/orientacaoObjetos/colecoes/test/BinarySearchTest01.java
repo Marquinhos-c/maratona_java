@@ -17,6 +17,6 @@ public class BinarySearchTest01 {
         // value 0,2,5,8
 
         Collections.sort(numeros);
-        System.out.println(Collections.binarySearch(numeros, 5));
+        System.out.println(Collections.binarySearch(numeros, 5)); // Indica a posição em que está
     }
 }
