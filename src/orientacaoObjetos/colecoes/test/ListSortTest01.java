@@ -5,7 +5,14 @@ import orientacaoobjetos.colecoes.dominio.Manga;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+/*
+Estrutura, Aceita Duplicatas?,           Tem Ordem?,                   Quando usar?
 
+ArrayList,    Sim,                       Sim (Índice),                "Listas gerais, acesso rápido."
+LinkedList,   Sim,                       Sim (Índice),                 Muita inserção/remoção de dados.
+HashSet,      Não,                       Não,                          "Garantir itens únicos, performance alta."
+HashMap,     "Chaves não, Valores sim",  Não,                           Buscar valores por uma chave (ID).
+*/
 public class ListSortTest01 {
     public static void main(String[] args) {
         List <String> mangas = new ArrayList<>(6);

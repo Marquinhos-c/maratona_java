@@ -56,9 +56,9 @@ public class Manga implements Comparable <Manga>{
             return 1;
         }
          */
-        return this.id.compareTo(outroManga.getId());
+        //return this.id.compareTo(outroManga.getId());
         // return Double.valueOf(preco).compareTo(outroManga.getPreco());
-        //return this.nome.compareTo(outroManga.getNome());
+        return this.nome.compareTo(outroManga.getNome());
     }
 
     public Long getId() {

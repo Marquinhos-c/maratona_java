@@ -17,7 +17,7 @@ public class SetTest01 {
         mangas.add(new Manga(5L, "Hellsing Ultimate", 21.90, 0));
         mangas.add(new Manga(9L, "Pokemon", 25.90, 2));
         mangas.add(new Manga(2L, "Dragon ball Z", 50.99, 0));
-        mangas.add(new Manga(2L, "Dragon ball Z ", 50.99, 0)); // Classe Manga esta comparando Id e Nome
+        mangas.add(new Manga(2L, "Dragon ball Z", 50.99, 0)); // Classe Manga esta comparando Id e Nome
 
         for (Manga manga : mangas) {
             System.out.println(manga);

@@ -31,7 +31,6 @@ public class Smartphone {
     public int hashCode() {
         return serialNumber == null ? 0 : this.serialNumber.hashCode();
     }
-
     @Override
     public String toString() {
         return "Smartphone{" +
